@@ -1,12 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import { User, Mail, Phone, Code, Briefcase, Plus, Edit2, Trash2, X, Save } from 'lucide-react';
+import { User, Edit2, Trash2 } from 'lucide-react';
 import type { Candidate } from '../../types/types';
 
 
-
-
-
-// CandidateTable Component
 const CandidateTable: React.FC<{
   candidates: Candidate[];
   onEdit: (candidate: Candidate) => void;
